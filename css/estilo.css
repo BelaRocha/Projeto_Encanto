@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 1rem;
+}
+
+header a{
+    text-decoration: none;
+    margin: 0.5rem;
+    color: #222222;
+    background-color: #fff5e3;
+    border: 1px #fff5e3 solid;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+#introducao{
+    display: flex;
+}
+
+
+#introducao img{
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+#slogan{
+    position: absolute;
+    z-index: 2;
+    top: 13rem;
+    font-size: 1.5rem;
+    width: 40rem;
+    text-align: center;
+    left: 42rem;
+    color: #fff5e3;
+}
+
+#slogan h1{
+    margin-bottom: 2rem;
+}
+
+#slogan a{
+    font-size: 1rem;
+    background-color: #fff5e3;
+    border: 2px #fff5e3 solid;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #222222;
+    padding: 1rem;
+    z-index: 1;
+}
+
+#estatistica{
+    background-color: #f5c2da;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#estatistica ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#estatistica li{
+    margin: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bordaEst{
+    padding: 0 1rem;
+    border-right: 1px #000000 solid;
+    border-left: 1px #000000 solid;
+}
+
+#servicos{
+    display: flex;
+    font-size: larger;
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicos ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    color: #222222;
+    justify-content: space-evenly;
+}
+
+#servicos li{
+    margin: 1rem 3rem;
+    padding: 0 1rem;
+}
+
+#servicos h2{
+    padding: 1rem 3rem 1rem 1rem;
+    border-right: 2px #f5c2da solid;
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#orcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#orcamentoTxt{
+    font-size: large;
+    text-align: center;
+    width: 60%;
+    margin: 3rem;
+}
+
+#orcamento a{
+    text-decoration: none;
+    color: #222222;
+    padding: 1rem;
+    background-color: #fff5e3;
+    border-radius: 4px;
+}
+
+#orcamentoTxt h2{
+    margin: 1rem;
+}
+
+#sobreNos{
+    display: flex;
+    justify-content: center;
+    border-top: 1px #f5c2da solid;
+    border-bottom: 1px #f5c2da solid;
+    margin: 2rem;
+}
+
+#sobreNos p{
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+}
